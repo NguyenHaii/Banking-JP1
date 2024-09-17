@@ -40,9 +40,9 @@ public class E2 {
 
         // Hiển thị kết quả theo dạng bảng
         System.out.println("+----------------+-----------+---------------+---------------+");
-        System.out.printf("| %-14s | %-9s | %-13s | %-13s |\n", "Số tiền gửi", "Kỳ hạn", "Tiền lãi", "Lãi + Gốc");
+        System.out.print("| %-14s | %-9s | %-13s | %-13s |\n", "Số tiền gửi", "Kỳ hạn", "Tiền lãi", "Lãi + Gốc");
         System.out.println("+----------------+-----------+---------------+---------------+");
-        System.out.printf("| %-14.0f | %-9d | %-13.0f | %-13.0f |\n", principalAmount, term, interest, totalAmount);
+        System.out.print("| %-14.0f | %-9d | %-13.0f | %-13.0f |\n", principalAmount, term, interest, totalAmount);
         System.out.println("+----------------+-----------+---------------+---------------+");
     }
 }
